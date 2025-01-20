@@ -67,9 +67,6 @@ let boolean4= Boolean (isLoggedIn4);
 console.log(booleanis3LoggedIn4);  // Output will be true
 /* here we converted String("anant") into Boolean value (true) */
 
-
-
-
 // Summary of line (47-68) //
 /*
 1 = true
@@ -84,11 +81,42 @@ console.log(stirngNumber);
 /* Output will be 33 instead of converting int number(33)
 into string but if we print type of(stringNumber) then it is srring
 */
-console.log(typeof stirngNumber); // output will be string 
+console.log(typeof stirngNumber); // output will be string
+
+/***********************OPERATIONS ************************************/
+
+let value = 3;
+let negativeValue = -value;
+console.log(negativeValue);  // Output will be -3 //
+
+console.log(2+2); // Output will be 4
+console.log(2-2); // Output will be 0
+console.log(2/2); // Output will be 1 (Quotient)
+console.log(2%2); // Output will be 0 (Reminder)
+console.log(2*2); // Output will be 4
+console.log(2**2);// Output will  be 4(2 ka power 2)
+console.log(2**3);// Output will be 8 (2 ka power 3)
+
+let str1 = "Hello";
+let str2 = " Anant";
+let str3 = str1 + str2;
+console.log(str3); // Output will be Hello Anant //log
+
+console.log("1" + 2); //Output will be 12
+console.log(1 + "2"); //Output will be 12
+console.log(1 + 2);  //Output will be 3
+console.log("1" + 2 + 2);//Output will be 122
+console.log(1 + 2 + "2");//Output will be 32
+
+console.log(true); //Output will be true;
+console.log(+true);//Output will be 1 //But not prefrable to use in industry
+console.log(+"");//Output will be 0 //But not prefrable to use in industry
 
 
-
-
+let x = 3;
+const y = x++;
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
 
 
 
