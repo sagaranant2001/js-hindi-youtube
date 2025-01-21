@@ -1,5 +1,6 @@
 const accountId= 144553 // const is used when constant value is given, means that the value cannot be changed.//
 
+
 let accountEmail ="anant@gmail.com" /*let variable is used as it uses the concept of scope that 
  means it has fixed scope*/
 var accountPassword="12345" 
