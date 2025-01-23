@@ -1,5 +1,5 @@
 console.log(2>1); //true
-console.log(2>=1); //false
+console.log(2>=1); //true
 console.log(2<1); // false
 console.log(2==1);//false
 console.log(2!=1);//true
@@ -11,7 +11,7 @@ console.log(null>0);//false as null is empty value
 console.log(null==0);//false here Comparison sing is not there null is not converted into 0
 console.log(null>=0); //true 
 /////**************************NOTE ***********************/////////
-/* THE REASON IS THAT AN EQUALITY CHECK(==) AND COMPARISON 
+/* THE REASON IS THAT AN EQU ALITY CHECK(==) AND COMPARISON 
 (>,<,>=,<= WORKS DIFFERENTLY)
  COMPARISONS CONVERT NULL TO A NUMBER, TREATING IT AS 0
   THAT'S WHY 

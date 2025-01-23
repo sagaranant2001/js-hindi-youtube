@@ -3,6 +3,7 @@ console.log(typeof score1); //  Output will be number
 // asking score1's type by passing it into method
 console.log(typeof (score1)); //  Output will be number
 
+
 let score2 = "33"
 console.log(typeof score2); //  Output will be string
 // asking score2's type by passing it into method
@@ -18,19 +19,57 @@ console.log(typeof valueInNumber2); //Output will be number
 /* but if you see value of score3,it is not a pure or proper number
 (mixture of number and string) */
 console.log(valueInNumber2); // Output will be NaN 
-/* NaN means that (Not A Number) */
+// /* NaN means that (Not A Number) */
+//  let score3= "33abc";
+// console.log(score3)//33abc
+// console.log(typeof score3);// string
+// changedValue2=Number(score3);
+// console.log(score3)//33abc
+// console.log(typeof changedValue2)//number
+// console.log(changedValue2)//NaN
 
 let score4 = null
 let valueInNumber3 = Number(score4) // Output will be 0 //
+// let score4=null;
+// console.log(score4);// null
+// console.log(typeof score4); // object
+// changedValue3=Number(score4);
+// console.log(score4)//null
+// console.log(typeof changedValue3)// number
+// console.log(changedValue3)// 0
+
 
 let score5 = undefined;
 let valueInNumber4 = Number(score5) // Output will be NaN //
+// let score5=undefined;
+// console.log(score5)//undefined
+// console.log(typeof score5)//undefined
+// changedValue4=Number(score5);
+// console.log(score5)//undefined
+// console.log(typeof changedValue4);//number
+// console.log(changedValue4)//NaN
 
 let score6 = true;
 let valueInNumber5 = Number(score6) // Output will be 1 //
+// let score6=true;
+// console.log(score6);//true
+// console.log(typeof score6);//boolean
+// changedValue5 =Number(score6);
+// console.log(score6)//true
+// console.log(changedValue5)//1
+// console.log(typeof changedValue5)//number
+
 
 let score7 = false;
 let valueInNumber6 = Number(score7) // Output will be 0 //
+// let score7=false;
+// console.log(score7);//false
+// console.log(typeof score7);//boolean
+// changedValue6 =Number(score7);
+// console.log(score7)//false
+// console.log(changedValue6)//0
+// console.log(typeof changedValue6)//number
+
 
 let score8 = "Anant";
 let valueInNumber7 = Number(score8) // Output will be NaN //
@@ -118,6 +157,84 @@ const y = x++;
 console.log(`x:${x}, y:${y}`);
 // Expected output: "x:4, y:3"
 
+
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+
+// SUMMARY OF TYPECASTING//      //OUTPUTS                    
+// let score1 = 33
+// console.log(typeof score1); //number
+
+
+// let score2 = "33"
+// console.log(typeof score2); //string
+// console.log(typeof (score2)); //string
+// let valueInNumber1 = Number(score2) //  TYPECASTING
+// console.log(typeof valueInNumber1); // number
+
+
+// /* NaN means that (Not A Number) */
+//  let score3= "33abc";
+// console.log(score3)//33abc
+// console.log(typeof score3);// string
+// changedValue2=Number(score3);
+// console.log(score3)//33abc
+// console.log(typeof changedValue2)//number
+// console.log(changedValue2)//NaN
+
+
+// let score4=null;
+// console.log(score4);// null
+// console.log(typeof score4); // object
+// changedValue3=Number(score4);
+// console.log(score4)//null
+// console.log(typeof changedValue3)// number
+// console.log(changedValue3)// 0
+
+
+// let score5=undefined;
+// console.log(score5)//undefined
+// console.log(typeof score5)//undefined
+// changedValue4=Number(score5);
+// console.log(score5)//undefined
+// console.log(typeof changedValue4);//number
+// console.log(changedValue4)//NaN
+
+
+// let score6=true;
+// console.log(score6);//true
+// console.log(typeof score6);//boolean
+// changedValue5 =Number(score6);
+// console.log(score6)//true
+// console.log(changedValue5)//1
+// console.log(typeof changedValue5)//number
+
+
+// let score7=false;
+// console.log(score7);//false
+// console.log(typeof score7);//boolean
+// changedValue6 =Number(score7);
+// console.log(score7)//false
+// console.log(changedValue6)//0
+// console.log(typeof changedValue6)//number
+
+
+// let score8="ANANT";
+// console.log(score8)//ANANT
+// console.log(typeof score8)//string
+// changedValue7=Number(score8)
+// console.log(score8)//ANANT
+// console.log(typeof changedValue7)//number
+// console.log(changedValue7)//NaN
 
 
 

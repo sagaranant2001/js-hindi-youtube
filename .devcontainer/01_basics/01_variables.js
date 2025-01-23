@@ -3,6 +3,11 @@ const accountId= 144553 // const is used when constant value is given, means tha
 
 let accountEmail ="anant@gmail.com" /*let variable is used as it uses the concept of scope that 
  means it has fixed scope*/
+ console.log(accountEmail);//anant@gmail.com will be printed;
+ 
+ accountEmail="smlsm@gmail.com";
+ console.log(accountEmail);//smlsm@gmail.com
+ 
 var accountPassword="12345" 
 /* Prefer not to use var because of issue in block scope and fuctioanal scope(this will be taught later)*/ 
 accountCity="Delhi"/* You can assign values to variable without giving let and const. But it is not prefer to use*/ 
