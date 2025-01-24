@@ -24,23 +24,11 @@ console.log(undefined>0); //false
 console.log(undefined<0); //false
 
 
-//**************** Checking (===) ********************************/
+//****************Checking(===)*************************************/
 console.log("2"===2); //false
 /* IN (===)  compiler check both datatype and the values 
 So thats the reason here it is giving false
 as "2"(String) is not equal to 2(number)*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
