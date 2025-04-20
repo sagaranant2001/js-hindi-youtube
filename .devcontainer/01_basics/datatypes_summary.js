@@ -90,5 +90,59 @@ Any other object	"object"
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 //
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//STACK AND HEAP MEMORY IN JAVASCRIPT 
+
+//STACK- All the PREMITIVE DATATYPES are used in stack memory
+//HEAP- All the NON-PREMITIVE DATATYPES are used in heap memory
+
+//***************************************************************************************** */
+// EXPLORING STACK MEMORY//
+let val1= 23;
+console.log(val1); // 23
+let val2=val1
+console.log(val2); // 23
+val2 = 24; // changing the value of val2 to see whether val1 value's is changed or not 
+console.log(val1); // 23
+console.log(val2);// 24 
+// So according to the above code we saw that in stack memory original value doesnot changed
+// as the copy of the original value is sent in the val2 so even after changing the 
+// value of value2(in line 105) to see whether val1 value's is changed or not
+// as a result we saw that the value of val1 remain unchanged but ofcourse value of val2 changed
+
+//***************************************************************************************** */
+// EXPLORING HEAP MEMORY//
+
+let userOne=
+{
+    email: "abc@gmail.com",
+    upiId : "abc@yabl"
+}
+console.log(userOne.email); //abc@gmail.com
+
+let userTwo=userOne
+
+    userTwo.email="anant@gmail.com"
+    console.log(userOne.email); //anant@gmail.com// changing email of userTwo to see whether email of userOne changed or not
+    console.log(userTwo.email);// anant@gamil.com
+
+// So according to above codes we learnt that in heap memory refrence of the varibale(here email) is copied
+// so when we changed the value of the email in userTwo we saw that value of userOne also changed //
+// resulting in the changed email in both userOne as well as userTwo (as shown in line number 126and 127) 
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
 
 
