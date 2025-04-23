@@ -21,9 +21,10 @@ console.log(studentName.charAt(3));//output will be n//
 const studentNamesubstring=studentName.substring(0 /*starting string*/,4/* ending string*/);
 console.log(studentNamesubstring); // output will be anan (this means 4th index in excluded, only a=0,n=1,a=2,n=3 is included) //
 
-// Slice method of STRING //
-const anotherString=studentName.slice(-10,4) // output will be (start the lecture from 14.00)
 
+// Slice method of STRING //
+const anotherString=studentName.slice(-10,5) // output will be (start the lecture from 14.00)
+console.log("annaaaaaaaaaaaaaaaaaaaa",anotherString);
 
 
  
